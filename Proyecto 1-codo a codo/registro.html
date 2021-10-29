@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogCafé</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/45d7639dff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span> </h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    <a href="registro.html" class="navegacion__enlace">Registro</a>
+                    <a href="sucursales.html" class="navegacion__enlace">Sucursales</a>
+                </nav>
+            </div><!---Cierre barra-->
+
+        </div><!---cierre contenedor-->
+        <div class="header__texto">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+            <h2 class="animate__animated animate__heartBeat">Blog de Café con consejos y cursos</h1> 
+                <!-- Animación  -->
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+
+    </header>
+
+    <main class="contenedor">
+        <section>
+            <h2 class="centrar-texto"> FORMULARIO DE REGISTRO</h2>
+            <form action="" method="post" class="formulario" id="form"> 
+             <fieldset>
+               <legend> Registrate y accede a todas las novedades </legend>
+        
+               <div class="contenedor-campos">
+        
+               <div class="campo">
+                  <label for="firstname"> Nombre* </label>
+                  <input class= "input-text"  type="text" id="nombre" name="firtsname" placeholder="Ingrese su nombre aquí... ">
+              </div>
+        
+              <div class="campo">
+                  <label for="lastname">Apellido*</label>
+                  <input class= "input-text" type="text" id="apellido" name="lastname" placeholder="Ingrese su apellido aquí...">
+              </div>
+
+              <div class="campo">
+                <label for="street">Dirección*</label>
+                <input class= "input-text" type="text" id="direccion" name="adress" placeholder="Ingrese su dirección aquí...">
+            </div>
+
+            <div class="campo">
+                <label for="city">Ciudad*</label>
+                <input class= "input-text" type="text" id="ciudad" name="city" placeholder="Ingrese su ciudad aquí...">
+            </div>
+
+              <div class="campo">
+                  <label>E-Mail*</label>
+                  <input class= "input-text" type="email" id="email" placeholder="Ingrese su E-Mail aquí...">
+              </div>
+        
+              <div class="campo">
+                <label>Telefóno*</label>
+                <input class= "input-text" type="tel" id="tel" placeholder="Ingrese su teléfono aquí... ">
+            </div>
+
+            <div class="campo">
+                <label for="zipcode">Código Postal*</label>
+                <input class= "input-text" type="zipcode" id="codigo_postal" placeholder="Ingrese su código postal aquí... ">
+            </div>
+
+
+            <div class="campo">
+                <label for="BirthDate">Fecha Nacimiento* </label>
+                <input class= "input-text" type="text" id="fecha" name="birthdate" placeholder="dd/mm/aaaa">
+            </div>
+
+            <select class="campo"> 
+                <option disabled selected id="genero"> Género </option>
+                <option>Hombre</option>
+                <option> Mujer </option>
+                <option> Otro </option>
+            </select>
+
+
+            <select class="campo"> 
+                <option disabled selected id="estudios"> Estudios </option>
+                <option>Primarios</option>
+                <option> Secundarios </option>
+                <option> Terciarios </option>
+                <option> Universitarios </option>
+                <option> Otro </option>
+            </select>
+
+            <div class="campo" id="formulario_terminos">
+				<label class="formulario-label">
+					<input class= "formulario-checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los términos y Condiciones
+				</label>
+			</div>
+
+              </div> <!--Etiqueta cierre formulario-->
+        
+               <input type="submit" id:="btn" name="btn" value="Enviar">
+              <p class="warnings" id="warnings"></p>
+            
+        
+             </fieldset> 
+        
+            </form>
+        </section>
+
+    </main>
+    
+
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span> </h1>
+                </a>
+
+                <div class="navegacion">
+                    <a class= "icono" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a class= "icono" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a class= "icono" href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                     </div>
+                     
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    <a href="registro.html" class="navegacion__enlace">Registro</a>
+                    <a href="sucursales.html" class="navegacion__enlace">Sucursales</a>
+                </nav>
+            </div><!---Cierre barra-->
+
+        </div><!---cierre contenedor-->
+
+    </footer>
+
+    <script src="js/formulario.js"></script> 
+
+</body>
+</html>
